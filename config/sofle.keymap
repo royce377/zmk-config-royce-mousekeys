@@ -10,15 +10,16 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
-// Personal includes
-#ifdef HAS_MOUSE_KEYS
-     #include "includes/mouse_keys.dtsi"
-#endif
-
 #define BASE 0
 #define LOWER 1
 #define RAISE 2
 #define ADJUST 3
+#define HAS_MOUSE_KEYS y
+
+// Personal includes
+#ifdef HAS_MOUSE_KEYS
+     #include "includes/mouse_keys.dtsi"
+#endif
 
 / {
     // Activate ADJUST layer by pressing raise and lower
