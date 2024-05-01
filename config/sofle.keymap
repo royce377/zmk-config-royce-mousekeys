@@ -19,9 +19,9 @@
 #define HAS_MOUSE_KEYS y
 
 // Personal includes
-#ifdef HAS_MOUSE_KEYS
+//#ifdef HAS_MOUSE_KEYS
      #include "includes/mouse_keys.dtsi"
-#endif
+//#endif
 
 / {
     // Activate ADJUST layer by pressing raise and lower
