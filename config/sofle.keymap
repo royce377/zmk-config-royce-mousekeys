@@ -78,14 +78,14 @@
 
             // ------------------------------------------------------------------------------------------------------------
             // | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       | BKSPC |
-            // |       | INS  | PSCR | GUI   |       |      |                | PGUP | HOME |   ^   | END  |       |  DEL  |
+            // |       | INS  | PSCR | GUI   | LCLK  | RCLK |                | PGUP | HOME |   ^   | END  |       |  DEL  |
             // |       | ALT  | CTRL | SHIFT |       | CAPS |                | PGDN |   <- |   v   |  ->  |       |       |
             // |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |       |      |       |       |
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
 &trans  &trans     &trans     &trans      &trans     &trans                      &trans          &trans     &trans    &trans     &trans           &kp BSPC
-&none   &none      &none      &none       &none      &none                       &kp SCROLLLOCK  &kp PG_UP  &kp UP    &kp PG_DN  &kp PRINTSCREEN  &kp DEL
+&none   &none      &none      &none       &mkp LCLK  &mkp RCLK                   &kp SCROLLLOCK  &kp PG_UP  &kp UP    &kp PG_DN  &kp PRINTSCREEN  &kp DEL
 &trans  &kp LC(A)  &kp SPACE  &kp DELETE  &kp LC(F)  &kp CLCK                    &kp HOME        &kp LEFT   &kp DOWN  &kp RIGHT  &none            &kp END
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)   &kp LC(V)  &none     &trans    &trans  &kp INS         &none      &none     &none      &none            &trans
                    &trans     &trans      &trans     &trans    &trans    &trans  &trans          &trans     &trans    &trans
