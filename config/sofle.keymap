@@ -128,7 +128,7 @@
 &trans  &none  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS                        &none   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS      &trans
 &trans  &none  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp ASTERISK                    &none   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp ASTERISK  &trans
 &trans  &none  &kp KP_NUMBER_0  &kp COMMA        &kp PERIOD       &kp SLASH     &trans    &trans  &none   &kp KP_NUMBER_0  &kp COMMA        &kp PERIOD       &kp SLASH     &trans
-               &trans           &trans           &trans           &trans        &tog 0    &trans  &trans  &trans           &trans           &trans
+               &trans           &trans           &trans           &trans        &trans    &trans  &trans  &trans           &trans           &trans
             >;
         };
     };
